@@ -29,7 +29,7 @@
 
 ;; Load Aspell.
 (setq ispell-program-name "aspell")
-(require 'ispell)
+(require 'aspell)
 (setq text-mode-hook '(lambda() (flyspell-mode t) ))
 
 ;; Ensure emacsclient loads .emacs file.
